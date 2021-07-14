@@ -203,8 +203,8 @@ footer{
     color: gray;
 
 }
-/* responsive design */
 
+/* responsive design for mobile*/
 @media (min-width: 320px) and (max-width: 425px) {
     /* common style */
     .container{
@@ -212,7 +212,6 @@ footer{
     }
     /* pass-through style  */
     .pass-through{
-
         height: 713px;
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -227,8 +226,6 @@ footer{
         line-height: 60px;
         color: #FFFFFF;
         margin-top: 112px;
-    
-    
     }
     .pass-through-banner img {
         height: 249px;
@@ -313,6 +310,5 @@ footer{
     }
 
     
-   
 }
 
