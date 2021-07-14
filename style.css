@@ -132,6 +132,51 @@ header{
     height: 427px;
     width: 567px;
 }
+/* follow-copa-america */
+.follow-copa-america {
+    margin-top: 50px;
+    height: 160px;
+    background-image: linear-gradient(#4257ad,#7680ff);
+}
+.follow-copa-america h2{
+    font-size: 38px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+}
+.follow-copa-america button{
+    height: 44px;
+    width: 168px;
+    padding: 10px 24px 10px 24px;
+    background-color:#E02C6D;
+    color: #FFFFFF;
+    border: 1px solid #E02C6D;
+    border-radius: 2px;
+    margin-left: 38%;
+
+}
+/* latest news */
+.latest-news{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+}
+.news{
+    height: 200px;
+}
+.news-banner img{
+    height: 180px;
+    width: 100%;
+}
+.news-detail button {
+    height: 38px;
+    width: 124px;
+    padding: 10px 24px 10px 24px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    border: 1px solid #E02C6D;
+    border-radius: 2px;
+}
 /* footer */
 footer{
     display: flex;
@@ -156,6 +201,118 @@ footer{
     height: 32px;
     width: 32px;
     color: gray;
+
+}
+/* responsive design */
+
+@media (min-width: 320px) and (max-width: 425px) {
+    /* common style */
+    .container{
+        margin: 0px 16px 0px 16px;
+    }
+    /* pass-through style  */
+    .pass-through{
+
+        height: 713px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .pass-through-info {
+        height: 138px;
+        width: 278px;
+        margin-top: -67px;
+    }
+    .pass-through-info h1{
+        font-size: 36px;
+        line-height: 60px;
+        color: #FFFFFF;
+        margin-top: 112px;
     
+    
+    }
+    .pass-through-banner img {
+        height: 249px;
+        width: 272px;
+        margin-top: 293px;
+        margin-bottom: 86px;
+        transform: scale(1);
+        transition: .9s ease-in-out;
+    }
+    /* players */
+    .players{
+        padding-top: 0px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .player {
+        width: 258px;
+        padding: 15px;
+        margin-bottom: 24px;
+    }
+    /* all-highlights */
+    .all-highlights{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: 66px;
+    }
+    .highlight-info {
+        height: 329px;
+        width: 299px;
+    }
+    .highlight-info h2 {
+        margin-top: 40px;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+    }
+    .highlight-banner img {
+        margin-top: 64px;
+        height: 237px;
+        width: 286px;
+    }
+    /* follow-copa-america */
+    .follow-copa-america {
+        height: 120px;
+    }
+    .follow-copa-america h2 {
+        font-size: 18px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 8px;
+    }
+    .follow-copa-america button {
+        height: 38px;
+        padding: 10px 11px 10px 10px;
+        background-color: #E02C6D;
+        color: #FFFFFF;
+        border: 1px solid #E02C6D;
+        border-radius: 2px;
+        margin-left: 21%;
+    }
+    /* latest news */
+    .latest-news{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: 24px;
+    }
+    .news {
+        height: 340px;
+    }
+    /* footer */
+    footer{
+        display: flex;
+        justify-content: center;
+        padding-top: 158px;
+    }
+    .footer-box {
+        width: 100%;
+        margin-top: -120px;
+    }
+    .footer-logo img {
+        width: 90%;
+    }
+
+    
+   
 }
 
